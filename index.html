@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 27th Birthday With MrBeast 6000 & T-Series Playlist 2026 GAMES</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+  body{background:#070714;color:#fff;padding:14px}
+  .wrap{max-width:1100px;margin:auto}
+  .header{text-align:center;background:linear-gradient(135deg,#ff00a8,#ffe600,#00ccff,#ff0000);color:#000;padding:22px;border-radius:22px}
+  .header h1{font-size:28px;line-height:1.1}
+  .header p{font-weight:bold}
+  .counter{text-align:center;margin:12px 0}
+  .counter b{color:#ffe600;font-size:18px}
+  .tableBox{background:#121833;border:2px solid #ff00a8;border-radius:18px;padding:14px;margin:12px 0}
+  .tableHead{display:flex;gap:8px;padding:10px 12px;background:#1e1e3a;border-radius:12px;font-weight:900;font-size:12px}
+  .tableHead span:nth-child(1){flex:0 0 45px}
+  .tableHead span:nth-child(2){flex:1}
+  .tableHead span:nth-child(3){flex:0 0 120px;text-align:center}
+  .flexTable{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px}
+  .flexCard{
+    flex:1 1 calc(50% - 12px);
+    min-width:250px;
+    background:#1a1a2e;
+    border:2px solid #333;
+    border-radius:16px;
+    padding:16px;
+    cursor:pointer;
+    transition:all 2s ease;
+  }
+  .flexCard:hover{
+    transform:scale(1.06) translateY(-4px);
+    border-color:#ff00a8;
+    background:linear-gradient(135deg,#2a003a,#1a003a);
+    box-shadow:0 0 25px #ff00a8, 0 0 50px #ffe600, 0 0 80px #00ccff, 0 0 100px #ff0000;
+    transition:all 2s ease;
+  }
+  .flexCard.active{
+    border-color:#00ff88;
+    box-shadow:0 0 30px #00ff88, 0 0 60px #ffe600;
+    background:linear-gradient(135deg,#003a1a,#002a3a);
+    transform:scale(1.03);
+    transition:all 2s ease;
+  }
+  .flexCard .num{display:inline-block;padding:5px 10px;border-radius:20px;background:#ff00a8;font-weight:900;font-size:12px;margin-bottom:8px;transition:all 2s ease}
+  .flexCard:hover .num{background:#ffe600;color:#000;box-shadow:0 0 20px #ffe600;transform:scale(1.15);transition:all 2s ease}
+  .flexCard h3{font-size:16px;line-height:1.3;margin:6px 0;color:#ffe600;transition:all 2s ease}
+  .flexCard:hover h3{color:#fff;text-shadow:0 0 12px #ff00a8;transition:all 2s ease}
+  .flexCard p{font-size:12px;opacity:.8;line-height:1.5;word-break:break-all}
+  .flexCard .btn{display:inline-block;margin-top:10px;padding:9px 14px;border-radius:20px;background:#ffe600;color:#000;font-weight:900;font-size:12px;transition:all 2s ease}
+  .flexCard:hover .btn{background:#ff00a8;color:#fff;box-shadow:0 0 25px #ff00a8, 0 0 40px #ff00a8;transform:scale(1.08);transition:all 2s ease}
+  .badge{display:inline-block;padding:3px 8px;border-radius:20px;font-size:11px;font-weight:bold;margin:2px}
+  .bday{background:#ff00a8}.beast{background:#00ccff;color:#000}.tseries{background:#ff0000;color:#fff}.mono{background:#00ff88;color:#000}
+  .viewer{background:#000;border:3px solid #00ff88;border-radius:18px;padding:14px;margin:12px 0}
+  .viewerTop{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+  .viewerTop h2{font-size:18px;color:#00ff88}
+  iframe{width:100%;height:520px;border:2px solid #333;border-radius:12px;background:#fff;margin-top:10px}
+  button{padding:11px 14px;border:none;border-radius:10px;font-weight:bold;cursor:pointer;margin:4px;transition:all 2s ease}
+  button:hover{transform:scale(1.06);box-shadow:0 0 20px #ffe600;transition:all 2s ease}
+  .y{background:#ffe600}.g{background:#00ff88}.r{background:#ff3b6b;color:#fff}.b{background:#00ccff}
+  .log{background:#000;padding:12px;border-radius:12px;min-height:50px;line-height:1.5;font-size:13px}
+  .searchBox{width:100%;padding:12px;border-radius:12px;border:2px solid #ffe600;background:#222;color:#fff;margin:10px 0}
+  @media(max-width:700px){.flexCard{flex:1 1 100%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <h1>🎂🎉 HAPPY 27TH BIRTHDAY<br>WITH MRBEAST 6000 & T-SERIES<br>PLAYLIST 2026 GAMES 🎉🎂</h1>
+    <p>Happy 27th Birthday Ian Patrick Batungbacal - Nov 18, 2026 - 8 LINKS - TABLE + FLEXBOX TITLES</p>
+    <p style="font-size:12px">Hover Neon Buttons with 2 Seconds Ease Animation Glow!</p>
+  </div>
+
+  <div class="counter">Total: <b>8 LINKS</b> | Na-click mo na: <b id="clickedCount">0</b> | Last clicked: <b id="lastClicked" style="color:#00ff88">Wala pa - click ka ng flexbox!</b></div>
+
+  <div style="text-align:center">
+    <button class="y" onclick="openRandom()">🎲 RANDOM LINK</button>
+    <button class="g" onclick="openAll()">📂 OPEN ALL 8 IN NEW TABS</button>
+    <button class="b" onclick="copyAll()">📋 COPY ALL LINKS</button>
+    <button class="r" onclick="resetViewer()">↺ RESET</button>
+  </div>
+
+  <div style="text-align:center">
+    <button class="y" onclick="setFilter('all')">ALL 8</button>
+    <button class="b" onclick="setFilter('birthday')">🎂 BIRTHDAY</button>
+    <button class="b" style="background:#00ccff" onclick="setFilter('beast')">💙 MRBEAST 6000</button>
+    <button class="r" onclick="setFilter('tseries')">🇮🇳 T-SERIES</button>
+    <button class="g" onclick="setFilter('mono')">🎲 MONOPOLY</button>
+  </div>
+
+  <input class="searchBox" id="searchInput" placeholder="🔍 Search... ex: Birthday, MrBeast, T-Series, Monopoly, 100 Games..." oninput="render()">
+
+  <div class="tableBox">
+    <div class="tableHead"><span>#</span><span>TITLE - MGA PANGALAN NG 8 LINKS</span><span>CLICK TO VIEW</span></div>
+    <div class="flexTable" id="flexTable"></div>
+  </div>
+
+  <div class="viewer" id="viewer">
+    <div class="viewerTop">
+      <h2 id="viewerTitle">👆 Click ka ng kahit anong flexbox sa taas — lalabas agad dito yung link!</h2>
+      <div>
+        <button class="y" onclick="openCurrentNewTab()">🔗 OPEN IN NEW TAB</button>
+        <button class="g" onclick="copyCurrent()">📋 COPY LINK</button>
+      </div>
+    </div>
+    <p id="viewerLink" style="word-break:break-all;color:#ffe600;font-size:13px;margin:8px 0">Wala pang na-click...</p>
+    <p id="viewerDesc" style="font-size:13px;opacity:.8">Happy 27th Birthday With MrBeast 6000 & T-Series Playlist 2026 Games Hub</p>
+    <iframe id="gameFrame" src="about:blank" title="Game Viewer"></iframe>
+    <p style="font-size:12px;opacity:.6;margin-top:8px">Note: Kung hindi nag-load yung iframe dahil sa site settings, click mo OPEN IN NEW TAB — lalabas agad yung game!</p>
+  </div>
+
+  <div class="log" id="log">Log: 8 links ready... Click ka ng flexbox!</div>
+
+  <div style="background:#121833;padding:14px;border-radius:14px;font-size:12px;word-break:break-all;line-height:1.8">
+    <b>ALL 8 LINKS - COPY PASTE LAHAT:</b><br>
+    <span id="allLinksText"></span>
+  </div>
+</div>
+
+<script>
+const LINKS = [
+  {title:"1. 100 GAMES - Happy 27th Birthday Ian Patrick Batungbacal - 50x 2D + 50x 3D", url:"https://ragesband1.github.io/November-17-2026-100-GAMES---Happy-27th-Birthday-Ian-Patrick-Batungbacal---50x-2D-50x-3D/", tag:"BIRTHDAY 100 GAMES", cls:"bday", cat:"birthday", desc:"100 Games Professionally - 50 2D + 50 3D - Happy 27th Birthday Ian Patrick Batungbacal Celebration!"},
+  {title:"2. Happy 27th Birthday - 100 Game Animations Portal", url:"https://ragesband1.github.io/November-17-2026-Happy-27th-Birthday---100-Game-Animations-Portal/", tag:"BIRTHDAY PORTAL", cls:"bday", cat:"birthday", desc:"100 Game Animations Portal - Happy 27th Birthday - List of icons, click separately!"},
+  {title:"3. MrBeast 6,000 Challenge - 100 Pro Game Animations", url:"https://ragesband1.github.io/November-17-2026-MrBeast-6-000-Challenge-100-Pro-Game-Animations/", tag:"MRBEAST 6000", cls:"beast", cat:"beast", desc:"MrBeast 6,000 Challenge - 100 Pro Game Animations - 6,000 Coins Goal!"},
+  {title:"4. 100 GAMES - MR BEAST 6,000 CHALLENGE - 50x 2D + 50x 3D", url:"https://ragesband1.github.io/November-17-2026-100-GAMES---MR-BEAST-6-000-CHALLENGE---50x-2D-50x-3D/", tag:"MRBEAST 100 GAMES", cls:"beast", cat:"beast", desc:"100 Games - Mr Beast 6,000 Challenge - 50 2D + 50 3D - List of icons, productive!"},
+  {title:"5. T-Series India Music Million Challenge - 100 Game Animations Hub", url:"https://ragesband1.github.io/November-17-2026-T-Series-India-Music-Million-Challenge---100-Game-Animations-Hub/", tag:"T-SERIES HUB", cls:"tseries", cat:"tseries", desc:"T-Series India Music Million Challenge - 100 Game Animations Hub - 1,000,000 Music Coins!"},
+  {title:"6. 100 GAMES - T-SERIES INDIA MUSIC MILLION CHALLENGE - 50x 2D + 50x 3D", url:"https://ragesband1.github.io/November-17-2026-100-GAMES---T-SERIES-INDIA-MUSIC-MILLION-CHALLENGE---50x-2D-50x-3D/", tag:"T-SERIES 100 GAMES", cls:"tseries", cat:"tseries", desc:"100 Games - T-Series India Music Million Challenge - 50 2D + 50 3D - Bollywood, Music, Dance!"},
+  {title:"7. Ian's 27th Birthday Monopoly", url:"https://ragesband1.github.io/November-18-2026-Ian-s-27th-Birthday-Monopoly/", tag:"MONOPOLY", cls:"mono", cat:"mono", desc:"Ian's 27th Birthday Monopoly - Millionaire's Game, $1,500 start, GO $200, Houses, Hotels, Jail!"},
+  {title:"8. Monopoly - Happy 27th Birthday Ian Patrick Batungbacal", url:"https://ragesband1.github.io/November-18-2026-Monopoly---Happy-27th-Birthday-Ian-Patrick-Batungbacal/", tag:"MONOPOLY BIRTHDAY", cls:"mono", cat:"mono", desc:"Monopoly - Happy 27th Birthday Ian Patrick Batungbacal - Boardwalk Edition, Trading, Auction, Bankruptcy!"}
+];
+
+let current = null;
+let clicked = 0;
+let currentFilter = "all";
+
+function speak(t){
+  try{ speechSynthesis.cancel(); let u = new SpeechSynthesisUtterance(t); u.rate = 1; speechSynthesis.speak(u); }catch(e){}
+}
+function setFilter(f){
+  currentFilter = f;
+  render();
+}
+function render(){
+  let q = (document.getElementById("searchInput").value || "").toLowerCase();
+  let box = document.getElementById("flexTable");
+  box.innerHTML = "";
+  let filtered = LINKS.filter(function(item){
+    if(currentFilter !== "all" && item.cat !== currentFilter) return false;
+    if(q && !item.title.toLowerCase().includes(q) && !item.url.toLowerCase().includes(q)) return false;
+    return true;
+  });
+  filtered.forEach(function(item){
+    let idx = LINKS.indexOf(item);
+    let d = document.createElement("div");
+    d.className = "flexCard";
+    d.id = "card-" + idx;
+    if(current && current.url === item.url) d.classList.add("active");
+    d.innerHTML = '<span class="num">#' + (idx+1) + '</span> <span class="badge ' + item.cls + '">' + item.tag + '</span><h3>' + item.title + '</h3><p>' + item.desc + '</p><p>' + item.url + '</p><span class="btn">👆 CLICK TO VIEW LINK AGAD ➤</span>';
+    d.onclick = function(){ openLink(idx); };
+    box.appendChild(d);
+  });
+  if(filtered.length === 0){
+    box.innerHTML = "<p style='padding:12px'>Walang nahanap - try ibang search!</p>";
+  }
+  document.getElementById("allLinksText").innerHTML = LINKS.map(function(l,i){ return (i+1) + ". " + l.url; }).join("<br>");
+}
+function openLink(idx){
+  current = LINKS[idx];
+  clicked++;
+  document.querySelectorAll(".flexCard").forEach(function(c){ c.classList.remove("active"); });
+  let card = document.getElementById("card-" + idx);
+  if(card) card.classList.add("active");
+  document.getElementById("viewerTitle").textContent = "🎮 NOW VIEWING: " + current.title;
+  document.getElementById("viewerLink").textContent = current.url;
+  document.getElementById("viewerDesc").textContent = current.desc;
+  document.getElementById("gameFrame").src = current.url;
+  document.getElementById("clickedCount").textContent = clicked;
+  document.getElementById("lastClicked").textContent = current.title;
+  document.getElementById("log").textContent = "Log: Na-click mo #" + (idx+1) + " - " + current.title + " - Lalabas agad sa viewer sa baba!";
+  speak("Opening " + current.title);
+  document.getElementById("viewer").scrollIntoView({behavior:"smooth"});
+}
+function openRandom(){
+  let idx = Math.floor(Math.random()*LINKS.length);
+  openLink(idx);
+}
+function openAll(){
+  LINKS.forEach(function(l){ window.open(l.url, "_blank"); });
+  speak("Opening all 8 links!");
+}
+function copyAll(){
+  let txt = LINKS.map(function(l){ return l.url; }).join("\n");
+  navigator.clipboard.writeText(txt).then(function(){ alert("Copied all 8 links!"); });
+}
+function copyCurrent(){
+  if(!current){ alert("Click ka muna ng flexbox!"); return; }
+  navigator.clipboard.writeText(current.url).then(function(){ alert("Copied: " + current.url); });
+}
+function openCurrentNewTab(){
+  if(!current){ alert("Click ka muna ng flexbox!"); return; }
+  window.open(current.url, "_blank");
+}
+function resetViewer(){
+  current = null; clicked = 0;
+  document.getElementById("clickedCount").textContent = "0";
+  document.getElementById("lastClicked").textContent = "Wala pa";
+  document.getElementById("gameFrame").src = "about:blank";
+  document.getElementById("viewerTitle").textContent = "👆 Click ka ng kahit anong flexbox sa taas — lalabas agad dito yung link!";
+  document.getElementById("viewerLink").textContent = "Wala pang na-click...";
+  document.querySelectorAll(".flexCard").forEach(function(c){ c.classList.remove("active"); });
+  render();
+}
+render();
+</script>
+</body>
+</html>
